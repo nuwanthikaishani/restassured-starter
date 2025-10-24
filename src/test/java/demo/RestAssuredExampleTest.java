@@ -30,8 +30,8 @@ public class RestAssuredExampleTest {
     public void testCreateUser(){
         RestAssured.baseURI = "https://reqres.in/api";
         String requestBody = "{\n" +
-                "    \"name\": \"John\",\n" +
-                "    \"job\": \"tester\"\n" +
+                "    \"name\": \"Ishani\",\n" +
+                "    \"job\": \"Nuwanthika\"\n" +
                 "}";
 
         Response response =
